@@ -1,0 +1,8 @@
+mixin loginForm()
+  form.form(action="/login" method="POST")
+    h2 login
+    label(for="email") enter your email:
+    input(type="email" name="email")
+    label(for="password") enter your password:
+    input(type="password" name="password")
+    input.button(type="submit" value="log in ➡")
